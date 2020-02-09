@@ -10,9 +10,9 @@ with socket io connections.
 * npm install -g typescript ts-node
 * mkdir node-apis-project
 * cd node-apis-project
-* npm init 
-* npm install --save @types/express express body-parser mongoose nodemon socket.io @types/socket.io
-* tsc
+* Run `npm init`
+* Run `npm install --save @types/express express body-parser mongoose nodemon socket.io @types/socket.io`
+* Run `tsc --init`
 * Configure tsconfig.json, package.json script as like `tsconfig.json`, `package.json` in this project
 * Add this project src folder code in your project
 * Run `npm run dev` for Run time development
